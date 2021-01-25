@@ -1,0 +1,12 @@
+
+<div class="card-deck">
+  <div class="card mb-3" *ngFor="let portfolio of portfolios" style="flex: 1 0 25%; !important">
+  <img class="card-img-top" src="{{ portfolio.image }}" alt="{{ portfolio.title }}">
+  <div class="card-body">
+    <h5 class="card-title">{{ portfolio.title }}</h5>
+    <p class="card-text">{{ portfolio.description }}</p>
+    <a class="skills" *ngFor="let skill of portfolio.skills"> {{ skill }} </a>
+  </div>
+</div>
+</div>
+

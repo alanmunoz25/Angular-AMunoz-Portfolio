@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AMunoz-Portfolio"
+    }
+  },
+  "defaultProject": "AMunoz-Portfolio",
+  "cli": {
+    "analytics": false
+  }
 }

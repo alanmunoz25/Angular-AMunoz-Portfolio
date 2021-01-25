@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.skills {
+  display: inline-flex;
+  align-items: center;
+  font-family: proxima-nova,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 600;
+  background-color: #DAE3E7;
+  color: #5ea5ee!important;
+  height: 35px;
+  border-radius: 3px;
+  padding: 0 12px;
+  margin: 0 6px 6px 0;
+}
+body {
+  background-color: #f0f0f1 !important;
+}
