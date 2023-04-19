@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
   }
 
   englishResume() {
-    this.router.navigateByUrl('http://www.ticketinteligente.com/portfolio-imgs/CV_ALAN_MUNOZ_English.pdf');
+    this.router.navigateByUrl('/assets/pdfs/AlanMunoz_CV-2023.pdf');
   }
   spanishResume() {
     this.router.navigateByUrl('http://www.ticketinteligente.com/portfolio-imgs/CV_ALAN_MUNOZ_Espanol.pdf');

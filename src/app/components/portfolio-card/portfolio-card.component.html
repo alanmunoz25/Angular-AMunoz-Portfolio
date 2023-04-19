@@ -1,6 +1,6 @@
 
 <div class="card-deck">
-  <div class="card mb-3" *ngFor="let portfolio of portfolios" style="flex: 1 0 25%; !important">
+  <div class="card animated fadeIn mb-3 card-columns-flex" *ngFor="let portfolio of portfolios">
   <img class="card-img-top" src="{{ portfolio.image }}" alt="{{ portfolio.title }}">
   <div class="card-body">
     <h5 class="card-title">{{ portfolio.title }}</h5>

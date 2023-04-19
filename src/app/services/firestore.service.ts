@@ -21,13 +21,12 @@ export class FirestoreService {
         portfolio => {
           return portfolio.map(a => {
             const data = a.payload.doc.data();
-            console.log('data: ', data);
             const id = a.payload.doc.id;
             return { id, ...data };
-          })
+          });
         }
       )
-    )
+    );
    }
 
    getPortfolio() {
